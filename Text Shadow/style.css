@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Madimi One", sans-serif;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    
+}
+h2{
+    font-size: 100px;
+    color: white;
+    cursor: pointer;
+    transition: 1s;
+}
+h2:hover{
+    text-shadow: 0 0 5px #eb4d4b,0 0 25px #eb4d4b,0 0 50px #eb4d4b;
+}

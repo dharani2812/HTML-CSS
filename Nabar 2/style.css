@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(200, 147, 250);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;  
+    gap: 50px;
+}
+.form-group{
+    width: 250px;
+    height: 40px;
+    position: relative;
+}
+.form-group input{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 18px;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    padding: 10px 10px  ;
+}
+.form-group input:focus{
+    border: 2px solid blueviolet;
+}
+.form-group button{
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    width: 40px;
+    height: 100%;
+    cursor: pointer;
+    background-color: blueviolet;
+    border: none;
+    font-size: 15px;
+    color: white;
+}
+.form-group button:hover{
+    background-color: rgba(137, 43, 226, 0.808);
+}
+.btn1 input{
+    padding-right: 50px;
+}
+.btn1 .btn{
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.btn2 input{
+    padding-left: 50px;
+}
+
+.btn2 .btn{
+    top: 0;
+    left: 0;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+.btn3 .btn{
+    border-radius: 50px;
+}
+.btn3 .input{
+    border-radius: 50px;
+    padding-right: 45px;
+}
+.btn4 input{
+    padding-left: 50px;
+    border-radius: 50px;
+    padding-left: 45px;
+}
+
+.btn4  .btn{
+    top: 0;
+    left: 0;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-radius: 50px;
+}
+.btn5 .btn{
+    width: 30px;
+    height: 25px;
+    top: 7px;
+    right: 5px;
+}
+.btn5 .input{
+    padding-right: 40px;
+}
+.btn6 .btn{
+    width: 30px;
+    height: 25px;
+    top: 7px;
+    left: 5px;
+}
+.btn6 .input{
+    padding-left: 40px;
+}

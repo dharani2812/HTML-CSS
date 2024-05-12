@@ -1,0 +1,90 @@
+*{
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.navbar{
+    background-color: #303952;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+.logo{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.nav-links ul{
+    display: flex;
+}
+.nav-links ul li{
+    list-style: none;
+    
+}
+
+.nav-links ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 16px;
+    padding-left: 25px;
+    display: block;
+}
+.nav-links ul li a:hover{
+    color: #574b90;
+    background-color: #3dc1d3;
+    border-radius: 30px;
+}
+.navbar-toggle{
+    display: none;
+}
+.side-navbar{
+    background-color: #303952;
+    width: 30%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: -30%;
+    color: white;
+    transition: 2s;
+    opacity: 1;
+    backdrop-filter: blur(10px);
+    
+}
+.side-nav-links ul li{
+    padding: 20px;
+
+}
+.side-nav-links ul li a{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;   
+}
+.side-nav-links ul li:hover{
+    background-color: #3dc1d3;
+    color: aliceblue;
+    border-radius: 30px;
+}
+.cancel-icon{
+    padding-top: 20px;
+    padding-left: 80%;
+    font-size:xx-large;
+}
+
+.content{
+    padding: 20px;
+}
+
+@media screen and (max-width:600px) {
+    .navbar-toggle{
+        display: block;
+    }
+    .nav-links ul{
+        display: none;
+    }
+   
+}
+
+
