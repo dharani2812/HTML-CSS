@@ -1,0 +1,301 @@
+body{
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:hsl(299, 55%, 80%);
+    transition: 1.5s;
+}
+#header-fixed{
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100vw;
+    background-color: hsl(273, 59%, 70%);
+    box-shadow: -2px 15px 30px -6px rgba(0,0,0,0.76);
+    transition: 0.5s;
+   
+}
+#header-fixed:hover{
+    background-color: hsl(273, 59%, 73%);
+    box-shadow: -2px 18px 34px -6px rgba(0,0,0,0.76);
+}
+
+/*header-left-fixed*/
+
+
+#header-left-fixed{
+    display: flex;
+    cursor: pointer;
+    gap: 20px;
+}
+#header-left-fixed h3{
+    padding-left: 10px;
+    font-weight: bolder;
+    font-size: 1.7em;
+}
+#header-left-fixed a{
+    
+    padding-top: 18px;
+    text-decoration: none;
+}
+#header-left-fixed h3:hover{
+    text-shadow: 2px 2px 10px rgba(66, 68, 90, 1);
+
+}
+#header-left-fixed a:hover{
+    text-shadow: 2px 2px 10px rgba(66, 68, 90, 1);
+
+}
+
+/*#header-right-fixed*/
+
+#header-right-fixed{
+    display: flex;
+    gap: 15px;
+    font-size: 1.2rem;
+    color: black;
+}
+#header-right-fixed a{
+    text-decoration: none;
+}
+#header-right-fixed button{
+    font-size: 1.1rem;
+    width: 150px;
+    height: 40px;
+    margin-top: 15px;
+    margin-right: 20px;
+    border-radius: 20px;
+    background-color:  hsl(273, 58%, 60%);
+    outline: none;
+    border-width: 0;
+    transition: 0.5s;
+}
+#header-right-fixed a:hover{
+    text-shadow: 2px 2px 10px rgba(66, 68, 90, 1);
+}
+#header-right-fixed button:hover{
+    background-color:  hsl(273, 59%, 70%);
+    box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+}
+#bg-1 img{
+    width: 35%;
+    height: 35%;
+    margin-left: 50%;
+    margin-top: -20%;
+    transition: 0.5s;
+   
+}
+#bg-1 img:hover{
+    width: 35.5%;
+    height: 35.5%;
+}
+
+/*All the Content Except the Header-fixed*/
+
+#tracking-content{
+    margin-top: 150px;
+}
+
+/*(All the Content Except the Header-fixed)END*/
+
+
+#tracking-info{
+    width: 50vw;
+    height: 45vh;
+    background-color: hsl(273, 59%, 70%);
+    padding: 10px;
+    box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+    transition: 0.5s;
+    margin-left: 10px;
+   
+}
+#tracking-info:hover{
+    box-shadow: 15px 15px 28px 0px rgba(66, 68, 90, 1);
+}
+
+#tracking-info h1{
+    color:black;
+    text-shadow: 5px 5px 6px rgba(219, 194, 239, 1);
+}
+#tracking-info h3{
+    color: hsl(0, 0%, 20%);
+}
+#tracking-info p{
+    color: hsl(0, 0%, 10%);
+    font-weight: bold;
+}
+#tracking-info input{
+    height: 40px;
+    width: 300px;
+    background-color:hsl(0, 0%, 90%);
+    outline: none;
+    border-width: 0; 
+    transition: 0.5s;
+   
+    
+}
+#tracking-info input:hover{
+    background-color: white;
+    box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+}
+#tracking-info img{
+    margin-top: -300px;
+    margin-left: 20px;
+    width:50%;
+    height: 65%;
+    box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+    
+}
+#tracking-number input::placeholder{
+    color:#9c4be7;
+    font-size: 1.2em;
+}
+#tracking-info i{
+    margin-left: -30px;
+    margin-top: 10px;
+    font-size: 1.3em;
+  
+}
+
+/* To Remove The number Arrows*/
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/*package-tracker-content*/
+#package-tracker-content{
+    width: 50vw;
+    height: 40vh;
+    background-color: hsl(273, 59%, 70%);
+    box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+    margin-top: 10rem;
+    margin-left: 10px;
+    padding: 10px;
+    transition: 0.5s;
+}
+#package-tracker-content:hover{
+    box-shadow: 15px 15px 28px 0px rgba(66, 68, 90, 1);
+}
+#package-tracker-content h5{
+    font-size: 1.5em;
+    margin-top: 20px;
+    color: hsl(0, 0%, 10%);
+}
+#package-tracker-content p{
+    font-size: 1.3em;
+    color: hsl(0, 0%, 20%);
+}
+#package-tracker-content button{
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    border-width: 0;
+    cursor: pointer;
+    background-color: hsl(273, 59%, 50%);
+    transition: 0.8s;
+}
+#package-tracker-content button:hover{
+    background-color:  hsl(273, 59%, 65%);
+    box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+}
+
+#bg-2 img{
+    width: 35%;
+    height: 35%;
+    margin-left: 60%;
+    margin-top: -25%;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    transition: 0.5s;
+}
+#bg-2 img:hover{
+    width: 37%;
+    height: 37%;
+    box-shadow: hsla(0, 0%, 0%, 0.85) 0px 29px 80px 2px;
+}
+
+
+
+
+#tracking-features{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+   
+}
+#tracking-features-left{
+    text-align: center;
+    width: 25%;
+    height: 250px;
+    background-color: hsl(273, 59%, 70%);
+    transition: 0.5s;
+    border-radius: 30px;
+}
+#tracking-features-left i{
+    font-size: 300%;    
+}
+
+#tracking-features-center{
+    text-align: center;
+    width: 25%;
+    height: 250px;
+    background-color: hsl(273, 59%, 70%);
+    transition: 0.5s;
+    border-radius: 30px;
+}
+#tracking-features-center i{
+    font-size: 300%; 
+}
+#tracking-features-right{
+    text-align: center;
+    width: 25%;
+    height: 250px;
+    background-color: hsl(273, 59%, 70%);
+    transition: 0.5s;
+    border-radius: 30px;
+}
+#tracking-features-right i{
+    font-size: 300%; 
+}
+#tracking-features-left:hover{
+    box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+    border-radius: 10px;
+    background-color: hsl(273, 59%, 75%)
+}
+#tracking-features-center:hover{
+    box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+    border-radius: 10px;
+    background-color: hsl(273, 59%, 75%)
+}
+
+#tracking-features-right:hover{
+    box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+    border-radius: 10px;
+    background-color: hsl(273, 59%, 75%)
+}
+
+
+#contact-info{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 50%;
+    height: 100%;
+    background-color: hsl(273, 59%, 70%);;
+    margin-left: 25%;
+    margin-bottom: 10%;
+    margin-top: 10%;
+    border-radius: 30px;
+    transition: 0.5s;
+}
+#contact-info:hover{
+    box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+    border-radius: 10px;
+    background-color: hsl(273, 59%, 75%)
+}
+
