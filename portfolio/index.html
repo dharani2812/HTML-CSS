@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--Font Awesome Cdn Links */-->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!--CSS LINK-->
+
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Google Fonts */-->
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Document</title>
+  </head>
+  <body>
+    
+    <div id="container">
+      <!--header-hixed-->
+      <div id="header-fixed">
+        <h2>My Portfolio</h2>
+        
+        <div id="header-right-fixed">
+          <a href="#home-title" id="header-home">Home</a>
+          <a href="#about" id="header-about">About</a>
+          <a href="#skill"  id="header-skills">Skills</a>
+          <a href="#contact" id="header-contact">Contact</a>
+        </div>
+      </div>
+
+        <!--Toggle-->
+        <div id="navbar-toggle" onclick="shownavbar()">
+          <i class="fa-solid fa-bars-progress"></i>
+        </div>
+      </nav>
+      <!--side-nav-bar-->
+  
+      <div id="side-navbar">
+        <p style="text-align: right; padding: 5%" onclick="closenavbar()">
+          <i class="fa-solid fa-xmark"></i>
+        </p>
+        <div id="side-navbar-items">
+          <p id="side-navbar-item"><a href="#home-title">Home</a></p>
+          <p id="side-navbar-item"><a href="#about">About</a></p>
+          <p id="side-navbar-item"><a href="#skill">Skill</a></p>
+          <p id="side-navbar-item"><a href="#contact">Contact</a></p>
+        </div>
+      </div>
+
+      <!--Home-->
+
+      <div id="except-header">
+        <div id="home-title">HOME
+        </div>
+
+        <!--Home Content-->
+        <div id="home-my-name">
+          <h3 id="hello-me">Hello, it's Me</h3><br>
+          <h2 id="hello-name">Dharani Dharan D</h2><br>
+          <h3 id="hello-frontend">And I'm a FrontEnd Developer</h3>
+          <img src="pic-1.jpg" alt="">
+          <p id="home-content">
+            I'm a Passionate Full Stack Developer , As a first Step I Learned
+            The HTML & CSS And Done Some Projects In HTML & CSS. While I
+            Learning The HTML & CSS , I do some Projects & They Are also
+            Uploaded in my GitHub.
+          </p>
+        </div>
+
+        <!--About-->
+        <div id="about">
+          <div id="about-title"> ABOUT</div>
+          <div id="about-intro">
+            <h3>About Me</h3>
+            <p><i class="fa-solid fa-feather"></i>  I Am Currently Pursuing the Degree in Computer Science Engineering in Velammal Institute Of Technology.
+              I Completed My SSLC & HSC in Jayam Matric Higher Secondary School With good Marks . Junior Front End Developer with a solid foundation in HTML and CSS . 
+            </p>
+            <p>
+              <i class="fa-solid fa-feather"></i>  I approach every project with curiosity and a commitment to continuous learning. I believe that the best solutions come from collaboration and a deep understanding of user needs. I'm not afraid to step out of my comfort zone and tackle new challenges head-on, whether it's learning a new framework or exploring innovative design patterns.
+            </p>
+
+
+          </div>
+
+        </div>
+
+        <!--skills-->
+        <div id="skill">
+          <div id="skill-title"> SKILLS </div>
+          <div id="skill-content">
+            <img src="html-5.png" alt="" id="html">
+            <img src="css-3.png" alt="" id="css">
+
+          </div>
+
+        </div>
+
+        <!--CONTACT-->
+        <div id="contact">
+          <div id="contact-title">CONTACT</div>
+          <div id="contact-content">
+            <h2>Contact Me On :</h2>
+           <p id="mail"> E-Mail : <a href="mailto:dharanidharan28122004@gmail.com">dharanidharan28122004@gmail.com</a></p>
+           <p id="find-me-on">Also Find Me On :</p>
+            <p id="links">
+              <a href="https://www.instagram.com/_.mxcurrie___/" class="icon"><i class="fab fa-instagram"></i></a>
+              <a href="https://github.com/dharani2812" class="icon"><i class="fab fa-github"></i></a>
+              <a href="https://www.linkedin.com/in/dharani-dharan-134b702a1/" class="icon"><i class="fab fa-linkedin"></i></a>
+            </p>
+
+
+          </div>
+        </div><br>
+
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
